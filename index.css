@@ -41,8 +41,12 @@ body {
 #image {
     /*position: relative;
     display: flexbox;*/
-    width: 50%;
+    max-width: none;
     height: auto;
+    display: block;
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
 }
 
 #img-caption,
